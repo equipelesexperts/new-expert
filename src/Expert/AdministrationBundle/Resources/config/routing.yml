@@ -1,0 +1,7 @@
+expert_administration_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: ExpertAdministrationBundle:Default:index }
+    
+expert_administration_comment_add:
+    path:     /add-comment
+    defaults: { _controller: ExpertAdministrationBundle:Commentaire:addComment }

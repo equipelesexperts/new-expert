@@ -1,0 +1,3 @@
+administration_acceuil_homepage:
+    path:     /
+    defaults: { _controller: ExpertAcceuilBundle:Default:index }
